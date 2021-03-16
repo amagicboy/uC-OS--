@@ -1,4 +1,5 @@
 #include "cpu.h"
+#include "common.h"
 
 #define TASK1_STK_SIZE 128
 #define TASK2_STK_SIZE 128
