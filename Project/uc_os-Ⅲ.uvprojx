@@ -390,9 +390,23 @@
         </Group>
         <Group>
           <GroupName>uC/CPU</GroupName>
+          <Files>
+            <File>
+              <FileName>cpu.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\uC-CPU\cpu.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>uC/LIB</GroupName>
+          <Files>
+            <File>
+              <FileName>common.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\uc-lib\common.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Doc</GroupName>
