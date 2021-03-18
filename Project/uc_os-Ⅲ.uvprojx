@@ -384,9 +384,43 @@
         </Group>
         <Group>
           <GroupName>uC/OS-Ⅲ Source</GroupName>
+          <Files>
+            <File>
+              <FileName>os_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\uc-OS-Ⅲ\Source\os_task.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\uc-OS-Ⅲ\Source\os_cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_var.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\uc-OS-Ⅲ\Source\os_var.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\uc-OS-Ⅲ\Source\os_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>os.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\uc-OS-Ⅲ\Source\os.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>uC/OS-Ⅲ Ports</GroupName>
+          <Files>
+            <File>
+              <FileName>os_cpu_a.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\User\uc-OS-Ⅲ\Ports\os_cpu_a.s</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>uC/CPU</GroupName>
@@ -395,6 +429,11 @@
               <FileName>cpu.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\User\uC-CPU\cpu.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_cpu_c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\uC-CPU\os_cpu_c.c</FilePath>
             </File>
           </Files>
         </Group>

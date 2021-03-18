@@ -13,4 +13,11 @@ typedef CPU_ADDR				CPU_STK_SIZE;
 
 typedef volatile CPU_INT32U CPU_REG32;
 
+typedef struct os_tcb		OS_TCB;
+
+struct os_tcb{
+	CPU_STK								*StkPtr;
+	CPU_STK_SIZE 					StkSize;
+};
+
 #endif
